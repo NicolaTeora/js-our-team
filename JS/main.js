@@ -1,3 +1,4 @@
+const cardMember = document.getElementById('team-form')
 const team = [
     {
       name: 'Wayne Barnett',
@@ -31,11 +32,24 @@ const team = [
     },
   ];
 
-console.log(team);
 // Milestone 1
 //Tramite l'utilizzo di un ciclo scorro tutto il contenuto dell'array
-for (let i = 0; i < team.length; i++){
+for (let members of team){
 
     //tramite <u>console.table</u> stampo in console il contenuto
-    console.table(team[i])
+    console.table(members)
 }
+
+function createCard() {
+    const memberTeam = document.createElement('div');
+    memberTeam.classList.add('col')
+    memberTeam.innerHTML = `
+        <ul>
+            <li>Nome:</li>
+            <li>Ruolo:</li>
+            <li>foto:</li>
+        </ul>`
+    return memberTeam;
+}
+
+console.log(createCard())

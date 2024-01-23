@@ -21,3 +21,6 @@ Tramite l'utilizzo di un ciclo scorro tutto il contenuto dell'array **team** e t
 - <u>Nome</u>, 
 - <u>Ruolo</u> 
 - stringa della <u>Foto</u>
+
+#### Milestone 2:
+tramite funzione creo il contenuto html per stampare in **DOM** le informazioni stampate in console.
