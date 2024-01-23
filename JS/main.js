@@ -32,14 +32,7 @@ const team = [
     },
   ];
 
-// Milestone 1
-//Tramite l'utilizzo di un ciclo scorro tutto il contenuto dell'array
-for (let members of team){
-
-    //tramite <u>console.table</u> stampo in console il contenuto
-    console.table(members)
-}
-
+  /*
 function createCard() {
     const memberTeam = document.createElement('div');
     memberTeam.classList.add('col')
@@ -51,5 +44,23 @@ function createCard() {
         </ul>`
     return memberTeam;
 }
+*/
 
-console.log(createCard())
+// Milestone 1
+for (let members of team){
+    // Milestone 1
+    console.table(members)
+    //Milestone 2    
+    const memberTeam = document.createElement('div');
+    memberTeam.classList.add('col')
+    const formMemberTeam = `
+        <ul>
+            <li>Nome: ${members.name}</li>
+            <li>Ruolo: ${members.role}</li>
+            <li>foto: ${members.image}</li>
+        </ul>`
+        cardMember.innerHTML += formMemberTeam;
+    
+}
+
+
