@@ -13,3 +13,11 @@ trasformare la stringa <u>Foto</u> in una immagine effettiva
 
 #### BONUS 2:
 organizzare i singoli membri in card/schede
+
+## Svolgimento:
+
+#### Milestone 1:
+Tramite l'utilizzo di un ciclo scorro tutto il contenuto dell'array **team** e tramite <u>console.table</u> stampo in console il contenuto:
+- <u>Nome</u>, 
+- <u>Ruolo</u> 
+- stringa della <u>Foto</u>
