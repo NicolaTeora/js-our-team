@@ -23,4 +23,5 @@ Tramite l'utilizzo di un ciclo scorro tutto il contenuto dell'array **team** e t
 - stringa della <u>Foto</u>
 
 #### Milestone 2:
-tramite funzione creo il contenuto html per stampare in **DOM** le informazioni stampate in console.
+<s>tramite funzione creo il contenuto html per stampare in **DOM** le informazioni stampate in console.</s>
+tramite template literals stampo nel **DOM** gli elementi <u>object nell'array(team)</u>

@@ -48,7 +48,7 @@ function createCard() {
 
 // Milestone 1
 for (let members of team){
-    // Milestone 1
+    
     console.table(members)
     //Milestone 2    
     const memberTeam = document.createElement('div');
@@ -59,7 +59,7 @@ for (let members of team){
             <li>Ruolo: ${members.role}</li>
             <li>foto: ${members.image}</li>
         </ul>`
-        cardMember.innerHTML += formMemberTeam;
+    cardMember.innerHTML += formMemberTeam;
     
 }
 
