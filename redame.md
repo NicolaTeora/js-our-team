@@ -24,4 +24,7 @@ Tramite l'utilizzo di un ciclo scorro tutto il contenuto dell'array **team** e t
 
 #### Milestone 2:
 <s>tramite funzione creo il contenuto html per stampare in **DOM** le informazioni stampate in console.</s>
-tramite template literals stampo nel **DOM** gli elementi <u>object nell'array(team)</u>
+- tramite template literals stampo nel **DOM** gli elementi <u>object nell'array(team)</u>
+
+#### bonus 1
+aggiungo al template literals il tag 'img' e trasformo le stringe delle foto in immagini effettive nel **DOM**  

@@ -57,7 +57,7 @@ for (let members of team){
         <ul>
             <li>Nome: ${members.name}</li>
             <li>Ruolo: ${members.role}</li>
-            <li>foto: ${members.image}</li>
+            <li>foto: <img src="./img/${members.image}" alt=""></li>
         </ul>`
     cardMember.innerHTML += formMemberTeam;
     
