@@ -56,9 +56,9 @@ for (let members of team){
   const formMemberTeam = `
   <div class="col-4">  
     <div class="card text-center">      
+      <img src="./img/${members.image}" class="border p-1" alt="">      
       <b>Nome: </b> ${members.name}
       <b>Rolo: </b>${members.role}
-      <img src="./img/${members.image}" class="border p-1" alt="">      
     </div>
   </div>`
   cardMember.innerHTML += formMemberTeam;
