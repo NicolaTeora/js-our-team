@@ -32,27 +32,11 @@ const team = [
     },
   ];
 
-/*
-function createCard() {
-    const memberTeam = document.createElement('div');
-    memberTeam.classList.add('col')
-    memberTeam.innerHTML = `
-        <ul>
-            <li>Nome:</li>
-            <li>Ruolo:</li>
-            <li>foto:</li>
-        </ul>`
-    return memberTeam;
-}
-*/
-
 // Milestone 1
 for (let members of team){
     
   console.table(members)
   //Milestone 2    
-  const memberTeam = document.createElement('div');
-  memberTeam.classList.add('col-3')
   const formMemberTeam = `
   <div class="col-4">  
     <div class="card text-center">      
