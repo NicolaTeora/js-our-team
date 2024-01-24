@@ -32,7 +32,7 @@ const team = [
     },
   ];
 
-  /*
+/*
 function createCard() {
     const memberTeam = document.createElement('div');
     memberTeam.classList.add('col')
@@ -49,17 +49,19 @@ function createCard() {
 // Milestone 1
 for (let members of team){
     
-    console.table(members)
-    //Milestone 2    
-    const memberTeam = document.createElement('div');
-    memberTeam.classList.add('col')
-    const formMemberTeam = `
-        <ul>
-            <li>Nome: ${members.name}</li>
-            <li>Ruolo: ${members.role}</li>
-            <li>foto: <img src="./img/${members.image}" alt=""></li>
-        </ul>`
-    cardMember.innerHTML += formMemberTeam;
+  console.table(members)
+  //Milestone 2    
+  const memberTeam = document.createElement('div');
+  memberTeam.classList.add('col-3')
+  const formMemberTeam = `
+  <div class="col-4">  
+    <div class="card text-center">      
+      <b>Nome: </b> ${members.name}
+      <b>Rolo: </b>${members.role}
+      <img src="./img/${members.image}" class="border p-1" alt="">      
+    </div>
+  </div>`
+  cardMember.innerHTML += formMemberTeam;
     
 }
 
